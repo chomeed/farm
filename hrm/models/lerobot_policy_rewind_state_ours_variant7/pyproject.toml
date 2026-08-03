@@ -1,0 +1,14 @@
+[project]
+name = "lerobot_policy_rewind_state_ours_variant7"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "lerobot",
+  "torch",
+  "transformers",
+  "pillow",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
